@@ -25,11 +25,11 @@ public class Main {
 		for (int i = 0; i < max; i++) {
 			temp[i] = sc.nextInt();
 			
-			if (temp[i] % 2 == 0) {
+			if (i % 2 == 0) {
 				par++;
 				suma = suma + temp[i];
 				
-			} else if (temp[i] % 2 != 0) {
+			} else if (i % 2 != 0) {
 				impar++;
 				suma2 = suma2 + temp[i];
 			}
