@@ -1,9 +1,0 @@
-Creado
-
-cp -r C:/Users/DAM/Downloads/Programación/Eclipse/Tema6/src/* C:/GitProgramacion/Tema6
-
-git add .
-
-git commit -m "???"
-
-git push -u origin master
