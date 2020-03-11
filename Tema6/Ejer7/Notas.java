@@ -1,7 +1,6 @@
 package Ejer7;
 
 import java.util.Scanner;
-
 /*
 
 Sergi Pastor Llopis
