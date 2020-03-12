@@ -1,5 +1,6 @@
 package String1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 /*
 
@@ -9,22 +10,15 @@ Sergi Pastor Llopis
 public class Main {
 
 	public static void main(String[] args) {
+		
+		// En un lugar de la mancha de cuyo nombre no quiero acordarme
+		
 		Scanner sc = new Scanner(System.in);
-
-		String str[] = new String[12];
-
-		for (int i = 0; i < str.length; i++) {
-			System.out.print("Nueva cadena: ");
-			if (str[0] == null) {
-				str[i] = sc.next();
-			} else {
-				str[i] = str[i-1] + " " + sc.next();
-			}
-		}
-		System.out.println("El string introducido es: ");
+		System.out.println("Introduce una frase");
+		String linea = sc.nextLine();
+		String[] array1 = linea.split(" ");
 		
-		System.out.println(str[11]);
-		
+		System.out.println("Este string tiene " + array1.length + " palabras");
 		sc.close();
 	}
 }
